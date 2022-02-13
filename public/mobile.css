@@ -1,0 +1,310 @@
+@media (max-width: 576px) {
+    @font-face {
+        font-family: "Poppins";
+        src: url(./fonts/Poppins/Poppins-Medium.ttf);
+    }
+
+    /* landingPage */
+    .LandingPage a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .fa-eye{
+        color: #EC982E;
+    }
+
+    /* Header */
+    #Header .logo{
+        width: 130px;
+        height: auto;
+    }
+    
+    #Header .fa-shopping-bag{
+        color: #EC982E;
+    }
+    
+    /* Banner */
+    #Banner .banner{
+        width: 100%;
+        height: 100px;
+    }
+    
+    #Banner .btn-light{
+        font-size: 13px;
+        color: black;
+        border-radius: 20px;
+    }
+    
+    #Banner .btn-warning{
+        font-size: 13px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    /* Slider */
+    #Slider .fa-arrow-circle-left{
+        color: #FFB82C;
+        background-color: white;
+        border-radius: 50px;;
+        font-size: 40px;
+        margin-right: auto;
+    }
+
+    #Slider .fa-arrow-circle-right{
+        color: #FFB82C;
+        background-color: white;
+        border-radius: 50px;;
+        font-size: 40px;
+        margin-left: auto;
+    }
+
+    #Slider .layer{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.59), rgba(196, 196, 196, 0));
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 93%;
+        border-radius: 30px;
+        color: white;
+        padding-top: 85px;
+        padding-left: 135px;
+    }
+    
+    #Slider .carousel-indicators{
+        justify-content: start;
+        height: 70px;
+        margin-left: 55px;
+    }
+    
+    #Slider .carousel-indicators [data-bs-target]{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    
+    #Slider .carousel-indicators .active{
+        background-color: #EC982E;
+    }
+
+    /* Card */
+    #CardProduct .Card{ 
+        margin-top: 20px;
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px rgb(61, 61, 61);
+    }
+    
+    #CardProduct .btn-primary{
+        font-size: 15px;
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+
+    #CardProduct .card-title{
+        font-size: 20px;
+    }
+
+    #CardProduct .card-text{
+        font-size: 15px;
+    }
+
+    #CardProduct2 .Card{
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px rgb(61, 61, 61);
+    }
+    
+    #CardProduct2 .card-title{
+        font-size: 20px;
+    }
+
+    #CardProduct2 .card-text{
+        font-size: 15px;
+    }
+
+    #CardProduct2 .btn-primary{
+        font-size: 15px;
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+
+    #CardProduct3 .Card{
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px rgb(61, 61, 61);
+    }
+    
+    #CardProduct3 .card-title{
+        font-size: 20px;
+    }
+
+    #CardProduct3 .card-text{
+        font-size: 15px;
+    }
+
+    #CardProduct3 .btn-primary{
+        font-size: 15px;
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+    
+    /* Breadcrumb */
+    #Breadcrumb a{
+        text-decoration: none;
+        color: #314728;
+    }
+    
+    #Breadcrumb .breadcrumb-item{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    
+    #Breadcrumb .fa-home{
+        color: #EC982E;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #Breadcrumb .input-group-text{
+        background-color: white;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        border-left: none;
+        
+    }
+    
+    #Breadcrumb .form-control{
+        border-radius: 10px;
+    }
+    
+    #Breadcrumb .fa-search{
+        color: #FFB82C;
+        width: 20px;
+        height: 20px;
+        margin-left: 37%;
+    }
+    
+    #Breadcrumb input{
+        border:none;
+        width: 60%;
+        font-size:15px;
+    }
+
+    /* ListProduct */
+    #ListProduct .fa-home{
+        color: #EC982E;
+    }
+    
+    #app{
+        margin-bottom: 100px;
+    } 
+
+    /* ProductDetail */
+    #ProductDetail #Carousel .carousel-inner{
+        border-radius: 30px;
+    }
+
+    #ProductDetail .breadcrumb-item{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Pesanan */
+    #Pesanan .btn-warning{
+        color: #FDF4F4;
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+
+    /* Keranjang */
+    #Keranjang .fa-home{
+        color: #EC982E;
+    }
+
+    #Keranjang .breadcrumb-item{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Table */
+    #Table .btn-primary{
+        color: #FDF4F4;
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+
+    /* Success */
+    #Success .icon{
+        width: 300px;
+        height: 300px;
+    }
+
+    #Success .btn-primary{
+        background-color: #EC982E;
+        border-radius: 60px;
+        border: none;
+    }
+
+    /* Footer */
+    #Footer .text-center{
+        background-color: #FDF4F4;
+        height: 40px;
+        color: #314728;
+        padding-top: 10px;
+    }
+
+    /* picture adjustment */
+    #Table .img{
+        width: 100%;
+        height: 157px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    #Banner .img{
+        width: 100%;
+        height: 452px;
+        object-fit: cover;
+    }
+
+    #Slider .d-block{
+        width: 100%;
+        height: 421px;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+
+    #CardProduct .card-img-top{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
+
+    #CardProduct2 .card-img-top{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
+
+    #CardProduct3 .card-img-top{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
+
+    #Success .icon{
+        width: 100%;
+        height: 324px;
+    }
+}
