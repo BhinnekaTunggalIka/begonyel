@@ -23,9 +23,9 @@
     <SearchBar />
     <!-- ini adalah perintah memasukkan data ke dalam component Card -->
     <div class="container">
-      <div class="row">
+      <div class="row mt-4">
         <div
-          class="col-lg-3 col-md-3 col-sm-3"
+          class="col-lg-3 col-md-3 col-sm-3 pt-4"
           v-for="item in menu"
           :key="item.id"
         >
