@@ -5,59 +5,61 @@
     }
 
     /* landingPage */
-    .LandingPage a{
+    .LandingPage a {
         text-decoration: none;
         color: black;
     }
 
-    .LandingPage .row{
+    .LandingPage .row {
         font-size: 35px;
     }
 
     /* Header */
-    #Header .logo{
+    #Header .logo {
         width: 210px;
         height: auto;
     }
-    
-    #Header .fa-shopping-bag{
+
+    #Header .fa-shopping-bag {
         color: #EC982E;
     }
-    
+
     /* Banner */
-    #Banner .banner{
+    #Banner .banner {
         width: 100%;
         height: auto;
     }
-    
-    #Banner .btn-light{
+
+    #Banner .btn-light {
         color: black;
         border-radius: 20px;
     }
-    
-    #Banner .btn-warning{
+
+    #Banner .btn-warning {
         color: white;
         border-radius: 20px;
     }
-    
+
     /* Slider */
-    #Slider .fa-arrow-circle-left{
+    #Slider .fa-arrow-circle-left {
         color: #FFB82C;
         background-color: white;
-        border-radius: 50px;;
+        border-radius: 50px;
+        ;
         font-size: 40px;
         margin-right: auto;
     }
 
-    #Slider .fa-arrow-circle-right{
+    #Slider .fa-arrow-circle-right {
         color: #FFB82C;
         background-color: white;
-        border-radius: 50px;;
+        border-radius: 50px;
+        ;
         font-size: 40px;
         margin-left: auto;
     }
 
-    #Slider .layer{
+    #Slider .layer {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.59), rgba(196, 196, 196, 0));
         position: absolute;
         top: 0;
@@ -68,163 +70,166 @@
         color: white;
         padding-top: 85px;
         padding-left: 135px;
+        letter-spacing: 2px;
     }
-    
-    #Slider .carousel-indicators{
+
+    #Slider .carousel-indicators {
         justify-content: start;
         height: 70px;
         margin-left: 55px;
     }
-    
-    #Slider .carousel-indicators [data-bs-target]{
+
+    #Slider .carousel-indicators [data-bs-target] {
         width: 15px;
         height: 15px;
         border-radius: 50%;
     }
-    
-    #Slider .carousel-indicators .active{
+
+    #Slider .carousel-indicators .active {
         background-color: #EC982E;
     }
 
     /* teks after */
-    .fa-eye{
+    .fa-eye {
         color: #EC982E;
     }
 
     /* Card */
-    #CardProduct .row{
+    #CardProduct .row {
         margin-top: 30px;
     }
 
-    #CardProduct .Card{ 
+    #CardProduct .Card {
         border: none;
         border-radius: 20px;
         box-shadow: 1px 1px 5px rgb(61, 61, 61);
     }
 
-    #CardProduct .card-title{
+    #CardProduct .card-title {
         font-size: 22px;
     }
 
-    #CardProduct .card-text{
+    #CardProduct .card-text {
         font-size: 18px;
     }
-    
-    #CardProduct .btn-primary{
+
+    #CardProduct .btn-primary {
         color: white;
         background-color: #EC982E;
         border-radius: 60px;
         border: none;
     }
 
-    #CardProduct2 .Card{
+    #CardProduct2 .Card {
         border: none;
         border-radius: 20px;
         box-shadow: 1px 1px 5px rgb(61, 61, 61);
     }
-    
-    #CardProduct2 .card-title{
+
+    #CardProduct2 .card-title {
         font-size: 22px;
     }
 
-    #CardProduct2 .card-text{
+    #CardProduct2 .card-text {
         font-size: 18px;
     }
 
-    #CardProduct2 .btn-primary{
+    #CardProduct2 .btn-primary {
         color: white;
         background-color: #EC982E;
         border-radius: 60px;
         border: none;
     }
 
-    #CardProduct3 .Card{
+    #CardProduct3 .Card {
         border: none;
         border-radius: 20px;
         box-shadow: 1px 1px 5px rgb(61, 61, 61);
     }
 
-    #CardProduct3 .card-title{
+    #CardProduct3 .card-title {
         font-size: 22px;
     }
 
-    #CardProduct3 .card-text{
+    #CardProduct3 .card-text {
         font-size: 18px;
     }
-    
-    #CardProduct3 .btn-primary{
+
+    #CardProduct3 .btn-primary {
         color: white;
         background-color: #EC982E;
         border-radius: 60px;
         border: none;
     }
-    
+
     /* SearchBar */
-    #SearchBar .input-group-text{
+    #SearchBar .input-group-text {
         background-color: white;
         border: 1px solid #ced4da;
         border-radius: 10px;
         border-left: none;
-        
+
     }
-    
-    #SearchBar .form-control{
+
+    #SearchBar .form-control {
         border-radius: 10px;
     }
-    
-    #SearchBar .fa-search{
+
+    #SearchBar .fa-search {
         color: #FFB82C;
         width: 20px;
         height: 20px;
         margin-left: 37%;
     }
-    
-    #SearchBar input{
+
+    #SearchBar input {
         width: 60%;
-        font-size:15px;
+        font-size: 15px;
     }
 
     /* ListProduct */
-    #ListProduct .fa-home{
+    #ListProduct .fa-home {
         color: #EC982E;
     }
 
-    #ListProduct .breadcrumb-item{
+    #ListProduct .breadcrumb-item {
         text-decoration: none;
         color: black;
     }
-    
+
     /* general */
-    
+
 
     /* ProductDetail */
-    #ProductDetail #Carousel .carousel-inner{
+    #ProductDetail #Carousel .carousel-inner {
         border-radius: 30px;
     }
 
-    #ProductDetail .breadcrumb-item{
+    #ProductDetail .breadcrumb-item {
         text-decoration: none;
         color: black;
     }
 
     /* Pesanan */
-    #Pesanan .fa-arrow-circle-right{
+    #Pesanan .fa-arrow-circle-right {
         color: #FFB82C;
         background-color: white;
-        border-radius: 50px;;
+        border-radius: 50px;
+        ;
         font-size: 25px;
         margin-left: auto;
     }
 
-    #Pesanan .fa-arrow-circle-left{
+    #Pesanan .fa-arrow-circle-left {
         color: #FFB82C;
         background-color: white;
-        border-radius: 50px;;
+        border-radius: 50px;
+        ;
         font-size: 25px;
         margin-right: auto;
     }
 
-    #Pesanan .btn-warning{
+    #Pesanan .btn-warning {
         color: #FDF4F4;
         background-color: #EC982E;
         border-radius: 60px;
@@ -232,41 +237,41 @@
     }
 
     /* Keranjang */
-    #Keranjang .fa-home{
+    #Keranjang .fa-home {
         color: #EC982E;
     }
 
-    #Keranjang .breadcrumb-item{
+    #Keranjang .breadcrumb-item {
         text-decoration: none;
         color: black;
     }
 
     /* Table */
-    #Table .btn-primary{
+    #Table .btn-primary {
         color: #FDF4F4;
         background-color: #EC982E;
         border-radius: 60px;
         border: none;
     }
 
-    #Table .text-atas{
+    #Table .text-atas {
         color: black;
     }
 
     /* Success */
-    #Success .icon{
+    #Success .icon {
         width: 300px;
         height: 300px;
     }
 
-    #Success .btn-primary{
+    #Success .btn-primary {
         background-color: #EC982E;
         border-radius: 60px;
         border: none;
     }
 
     /* Footer */
-    #Footer .text-center{
+    #Footer .text-center {
         background-color: #FDF4F4;
         height: 40px;
         color: #314728;
@@ -274,48 +279,48 @@
     }
 
     /* picture adjustment */
-    #Table .img{
+    #Table .img {
         width: 100%;
         height: 157px;
         border-radius: 20px;
         object-fit: cover;
     }
 
-    #Banner .img{
+    #Banner .img {
         width: 100%;
         height: 452px;
         object-fit: cover;
     }
 
-    #Slider .d-block{
+    #Slider .d-block {
         width: 100%;
         height: 421px;
         border-radius: 30px;
         object-fit: cover;
     }
 
-    #CardProduct .card-img-top{
+    #CardProduct .card-img-top {
         width: 100%;
         height: 293px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
 
-    #CardProduct2 .card-img-top{
+    #CardProduct2 .card-img-top {
         width: 100%;
         height: 293px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
 
-    #CardProduct3 .card-img-top{
+    #CardProduct3 .card-img-top {
         width: 100%;
         height: 293px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
 
-    #Success .icon{
+    #Success .icon {
         width: 100%;
         height: 324px;
     }

@@ -1,8 +1,10 @@
 <template>
   <div id="Header">
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-          <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo_begonyel.png" alt=""></a>
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="../assets/logo_begonyel.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -14,11 +16,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#/landingpage">Home</a>
+            <a class="nav-link active" aria-current="page" href="#/">Home</a>
             <a class="nav-link" href="#/listproduct">Menu Makanan</a>
-            <a class="nav-link" href="#/keranjang">Keranjang <i class="fas fa-shopping-bag"></i></a>
+            <a class="nav-link" href="#/keranjang"
+              >Keranjang <i class="fas fa-shopping-bag"></i
+            ></a>
           </div>
         </div>
       </div>
